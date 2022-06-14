@@ -12,7 +12,7 @@ stages {
 
       // Get some code from a GitHub repository
 
-   //  git 'https://github.com/raknas999/GOL-Repo.git'
+   //  git 'https://github.com/tataji251/GOL-Repo.git'
 
       // Get the Maven tool.
      
@@ -64,7 +64,7 @@ stages {
       steps {
           //deploy adapters: [tomcat8(credentialsId: 'tomcat-cred', path: '', url: 'http://13.58.244.224:8080/')], contextPath: null, war: '**/*.war'
           //sh label: '', script: 'ansible-playbook deploy-withinfra.yml'
-          sh label: '', script: 'ansible-playbook deploy.yml'
+          //sh label: '', script: 'ansible-playbook deploy.yml'
       }
  }
 }
